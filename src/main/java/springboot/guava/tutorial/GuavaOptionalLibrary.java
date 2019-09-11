@@ -7,7 +7,7 @@ import java.util.List;
 
 import static com.google.common.base.Strings.emptyToNull;
 
-public class GuavaLibrary {
+public class GuavaOptionalLibrary {
 
     public static void main(String[] agrs) {
 
@@ -32,7 +32,7 @@ public class GuavaLibrary {
          */
         Integer value = optionalValue2.get();
         System.out.println("Value present: " + value);
-        
+
         List<String> myList = new ArrayList<>();
         myList.add("Geeks");
         myList.add("for");
